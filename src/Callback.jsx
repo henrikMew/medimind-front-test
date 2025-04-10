@@ -11,7 +11,7 @@ const Callback = () => {
 
     if (code) {
       console.log('Got auth code:', code);
-      // TODO: Send this to your backend for token exchange
+      // send this to your backend for token exchange
     } else if (error) {
       console.error('Login failed:', error);
     } else {
